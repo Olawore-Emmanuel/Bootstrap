@@ -1,0 +1,94 @@
+.techpic{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;  
+}
+
+.techpic img{
+    width: 400px;
+    padding:  9px;
+}
+.tech-support{
+background-image: url(./first-image-sec.jpg);
+width: 30%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-support .magic{
+display: none;
+}
+.tech-support:hover .magic{
+display: block;
+}
+.head{
+margin-top: 170px;
+margin-bottom: 30px;
+}
+.customer-success .magic{
+    display: none;
+}
+.customer-success:hover .magic{
+    display: block;
+}
+.customer-success{
+background-image: url(./sec-image-sec.jpg);
+width: 31%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-talent{
+background-image: url(./third-image-sec.jpg);
+width: 30%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-talent .magic{
+    display: none;
+}
+.tech-talent:hover .magic{
+    display: block;
+}
+.magic{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.impact{
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+#global{
+    display: flex;
+    justify-content: space-between;
+    align-items: start
+}
+#global h1{
+    color: rgb(57, 117, 230);
+    font-size: 50px;
+    margin-top: -40px;
+}
+#global p{
+    margin-top: 10px;
+    font-size: larger
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.line{
+    background-color: white;
+    width: fit;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
